@@ -20,3 +20,12 @@ in HTML file
 [src]="imagePath()"
 [alt]="selectedUser().name"
 />
+---
+
+### 210525
+input without uppercase is a generic function
+it can receive type, can require: input.require()
+when .require we can't add default value
+
+avatar = input.required<string>();
+name = input.required<string>()
