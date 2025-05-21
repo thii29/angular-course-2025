@@ -35,3 +35,14 @@ select = output<string>();
 
 ### type & interface
 https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/52682220#52682220
+### ngIf ngFor
+<ul id="users">
+  <li *ngFor="let user of users">
+    <app-user [user]="user" (select)="onSelectUser($event)" />
+  </li>
+</ul>
+
+<app-tasks *ngIf="selectedUser ; else fallback"  [name]="selectedUser!.name" />
+<ng-template #fallback>
+  <p id="fallback">Select a user to see their tasks!</p>
+</ng-template>
