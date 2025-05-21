@@ -1,3 +1,4 @@
+## Note
 ### How to use signal
 
 selectedUser = signal(DUMMY_USERS[randomIndex]);
@@ -14,7 +15,6 @@ this.selectedUser.set(DUMMY_USERS[randomIndex]);
 }
 
 ---
-
 in HTML file
 <img
 [src]="imagePath()"
@@ -31,4 +31,7 @@ when .require we can't add default value
 avatar = input.required<string>();
 name = input.required<string>();
 //output()
-select = output<string>()
+select = output<string>();
+
+### type & interface
+https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/52682220#52682220
