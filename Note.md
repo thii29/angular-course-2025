@@ -27,5 +27,8 @@ input without uppercase is a generic function
 it can receive type, can require: input.require()
 when .require we can't add default value
 
+//input()
 avatar = input.required<string>();
-name = input.required<string>()
+name = input.required<string>();
+//output()
+select = output<string>()
