@@ -51,5 +51,7 @@ https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/5
 NgModel Directive:
 - An "element enhancement" that helps with extracting (or changing) user input values
 - Directives, unlike components, don't have a template!
-
-
+signal & two-way binding
+  -enteredTitle = signal('');
+  -enteredSummary = signal('');
+  -enteredDate = signal('');
