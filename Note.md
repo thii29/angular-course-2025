@@ -46,3 +46,10 @@ https://stackoverflow.com/questions/37233735/interfaces-vs-types-in-typescript/5
 <ng-template #fallback>
   <p id="fallback">Select a user to see their tasks!</p>
 </ng-template>
+
+### 220525
+NgModel Directive:
+- An "element enhancement" that helps with extracting (or changing) user input values
+- Directives, unlike components, don't have a template!
+
+
