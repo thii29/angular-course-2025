@@ -15,14 +15,14 @@ export class TasksComponent {
   @Input({ required: true }) userId!: string;
   @Input({ required: true }) name?: string;
   isAddingTask = false;
-  
+
   constructor(private tasksService: TasksService) {}
 
   get selectedUserTasks() {
     return this.tasksService.getUserTasks(this.userId);
   }
 
-  onCompleteTask(id: string) {}
+
 
   onStartAddTask() {
     this.isAddingTask = true;
@@ -31,5 +31,4 @@ export class TasksComponent {
   onCloseAddTask() {
     this.isAddingTask = false;
   }
-
 }
