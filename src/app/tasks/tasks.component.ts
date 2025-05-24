@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { type NewTaskData } from '../models/task.model';
 import { NewTaskComponent } from './new-task/new-task.component';
 import { TaskComponent } from './task/task.component';
 import { TasksService } from './tasks.service';
@@ -21,8 +20,6 @@ export class TasksComponent {
   get selectedUserTasks() {
     return this.tasksService.getUserTasks(this.userId);
   }
-
-
 
   onStartAddTask() {
     this.isAddingTask = true;
