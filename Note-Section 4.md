@@ -26,3 +26,5 @@ To define properties or parameters as optional, you can add a ? after the name: 
 To allow for multiple types in a single value you can use Union Types: myVal: number | string
 
 To format the currency values appropriately, you could consider using Angular's built-in CurrencyPipe
+
+asReadonly(): is a method provided by Angular, which we can call on signals to get a read-only version of those signals, which can't be manipulated
