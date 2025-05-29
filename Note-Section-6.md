@@ -6,3 +6,9 @@
 Ex: The bult-in <video> element hides a more complex DOM tree that's used internally
 - For CSS styling, the Shadow DOM can be used to scope CSS styles to that hidden tree - instead of applying styles globally to the entire page.
 - Angular can emulate this Shadow DOM browser feature for its own components.
+### Component Host Elements
+- Every Angular component has a Host Element
+Ex: A component with a selector of "app-header" targets and <app-header> element which is rerendered into the real DOM.
+- Important: The elements targeted by your component selectors DO NOT ac as placeholders and ARE NOT replaced when the page is rerendered!
+- Instead, the selected elements are preserved and simply "enhanced"/taken over by your component logic & markup!
+
