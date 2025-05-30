@@ -24,3 +24,7 @@
     'font-size': '64px' // or fontSize : '64px'
 }"
 or [style.fontSize] = "'64px'"
+
+### ngOnInit()
+Complex task like sending HTTP requests, should not go into the constructor, but instead into ngOnInit()
+
