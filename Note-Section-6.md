@@ -11,4 +11,6 @@ Ex: The bult-in <video> element hides a more complex DOM tree that's used intern
 Ex: A component with a selector of "app-header" targets and <app-header> element which is rerendered into the real DOM.
 - Important: The elements targeted by your component selectors DO NOT ac as placeholders and ARE NOT replaced when the page is rerendered!
 - Instead, the selected elements are preserved and simply "enhanced"/taken over by your component logic & markup!
+### Class bindings: repetition
+<div [class.status]="currentStatus === 'offline'"> // can add or remove class dynamic
 
