@@ -28,3 +28,8 @@ or [style.fontSize] = "'64px'"
 ### ngOnInit()
 Complex task like sending HTTP requests, should not go into the constructor, but instead into ngOnInit()
 
+## HTML Input Elements
+Link: https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement
+
+It the template variable were assigned to some other element, the type would reflect that element (e.g: on a <textarea>, it would be HTMLTextAreaElement)
+
