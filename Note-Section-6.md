@@ -52,3 +52,7 @@ effect((onCleanup) => {
 
 ## Updating with signal values
 update method in signal likely set method, but different, it expects to get a function as an argument, and that function will be executed by Angular
+
+## TODO:
+- alias?
+
