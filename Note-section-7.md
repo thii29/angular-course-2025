@@ -6,5 +6,5 @@ Directives are "enhancements" for elements (built-in ones or components)
 - in the other words: components are directives with a template.
 ## ngModel
 - allowing us to perform two-way binding, also seems to be responsible for adding these classes.
-
+## ngIf
 
