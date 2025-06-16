@@ -10,7 +10,16 @@
   } -->
   <!-- <p *ngIf="isAdmin()">Only admins should be see this!</p> -->
   <!-- <p appAuth="admin">Only admins should be see this!</p> -->
-  <ng-template appAuth="admin">
+  <!-- <ng-template appAuth="admin">
     <p>Only admins should be see this!</p>
-  </ng-template>
+  </ng-template> -->
+  <p *appAuth="'admin'" class="protected-content admin">
+    Only admins should be see this!
+  </p>
+  <p *appAuth="'user'" class="protected-content unathenticated">
+    Regular users should be see this!
+  </p>
+  <p *appAuth="'guest'" class="protected-content athenticated">
+    Guest users should be see this!
+  </p>
 </main>
