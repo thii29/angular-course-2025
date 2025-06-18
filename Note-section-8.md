@@ -8,3 +8,6 @@ export class TemperaturePipe implements PipeTransform{
         //...args: any[]: the configuration values for the pipe
     }   // this is a method must exist for that pipe to work
 }
+
+## Reference vs Primitive Values
+[text](https://academind.com/tutorials/reference-vs-primitive-values)
